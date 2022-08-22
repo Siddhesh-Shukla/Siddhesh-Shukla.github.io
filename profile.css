@@ -110,8 +110,8 @@ border-radius: 5px;
 
 
 .intro {
-    height: 300px;
-    padding: 75px;
+    height: min(20vw, 300px);
+    padding: min(5vw, 75px);
     background-image: url("./topBackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
