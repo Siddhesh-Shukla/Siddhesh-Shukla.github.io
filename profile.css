@@ -12,7 +12,7 @@ h1 .type{
     white-space: nowrap; 
     width: 0;
     animation: 
-      typing 0.8s steps(6, end) forwards;
+        typing 0.8s steps(6, end) forwards;
 }
 
 h1 .type2{
@@ -74,7 +74,7 @@ h1 .type5{
     }
 }
 
-.typing-demo {
+.typingDemo {
     width: 100%;
 }
 
@@ -212,28 +212,19 @@ h1 .type5{
 
 /* Project End */
 
-.portfolio-card{
+.projectCard{
     box-shadow: 0px 2px 5px #888888;
     width: 2000px;
     background: #eee;
     border-radius: 4px;
 }
 
-.portfolio-container-holder{
-    background: #eee;
-    padding-bottom: 20px;
-}
-.portfolio-card-holder{
-    padding: 5px;
-    margin-bottom: 5px;
-}
-
-.portfolio-img{
+.project-img{
     width: 100%;
     border-radius: 4px 4px 0 0;
 }
 
-.portfolio-img-desc{
+/* .portfolio-img-desc{
     position: relative;
     bottom: 0px;
     left: 0px;
@@ -241,7 +232,7 @@ h1 .type5{
     background: rgb(241, 238, 238);
     color: #000;
     text-align: center;
-}
+} */
 
 button {
     margin: 20px;
@@ -365,7 +356,7 @@ footer {
     .header,
     .main-nav {
         display: flex;
-            /* position: relative; */
+        /* position: relative; */
     }
     .header {
         flex-direction: column;
@@ -378,5 +369,4 @@ footer {
         flex-direction: row;
         justify-content: space-between;
     }
-
 }
