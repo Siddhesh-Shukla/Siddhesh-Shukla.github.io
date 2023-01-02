@@ -5,19 +5,6 @@
     </head>
 
     <body>
-        <div class="intro">
-            <div class="typingDemo">
-                <h1><div class="c1"><div class="type" style="font-size: min(3.2rem, 2.7vw);">"info" : {</div></div>
-                </br>
-                <div class="c2"><div class="type2" style="font-size: min(3.2rem, 2.7vw);;">&emsp; "name" : "Siddhesh Shukla", </div></div>
-                </br>
-                <div class="c3"><div class="type3" style="font-size: min(3.2rem, 2.7vw);;">&emsp; "education" : "Computer Science Undergrad", </div></div>
-                </br>
-                <div class="c4"><div class="type4" style="font-size: min(3.2rem, 2.7vw);;">&emsp; "college" : "BITS Pilani, Hyderabad Campus"</div></div>
-                </br>
-                <div class="c5"><div class="type5" style="font-size: min(3.2rem, 2.7vw);;">}</div></div></h1>
-            </div>
-        </div>
 
         <div class="aboutMeDiv">
             <div class="profileImgDiv">
@@ -27,55 +14,87 @@
             <div class="aboutMeContent">
                 <h1>ABOUT ME</h1>
                 My name is Siddhesh Shukla, I am currently pursuing my Bachelor's Degree in Computer Science from BITS Pilani, Hyderabad. <br>
-                I have a passion for Machine Learning & Web Development and I am currently working on few projects. <br>
-                I want to learn more and utilize my skills in the field of Information Technology and to help solve real world challenges. <br>
+                I have a passion for Machine Learning & Web Development. <br>
             </div>
         </div>
 
-        <div class="skillDiv">
-            <h1 class="skillHead">SKILLS AND PROFICIENCY</h1>
+        <div class="experienceSec">
+            <h1 class="experienceHead">EXPERIENCE</h1>
 
-            <div class="skillType">Web Development</div>
-            <img src="./svgs/django-logo" alt="" class="skillImg">
-            <img src="./svgs/html-logo.png" alt="" class="skillImg">
-            <img src="./svgs/css-logo.png" alt="" class="skillImg">
-            <img src="./svgs/react-logo.png" alt="" class="skillImg">
+            <div class="experienceDiv">
+                <h2 class="experienceName">Data Science Intern @ Primera Medical Technologies, Hyderabad</h2>  
+                <!-- <a class="experienceDate">Jan 2022 - May 2022</a> -->
+                <p> 
+                    <ul>
+                        The task was to process the written clinical notes of a patient to make an early prediction of 
+                        Diagnostic Related Groups (DRGs) and estimate the hospital cost.
+                    </ul>
 
-            <div class="skillType">Data Science</div>
-            <img src="./svgs/python-logo.jpeg" alt="" class="skillImg">
-            <img src="./svgs/pytorch-logo.png" alt="" class="skillImg">
-            <img src="./svgs/tensorflow-logo.png" alt="" class="skillImg">
-            
-            <div class="skillType">Competitive Coding</div>
-            <img src="./svgs/c++-logo.jpeg" alt="" class="skillImg">
+                    <ul>
+                        The objective was to extract information from the clinical notes and map it to relevant SNOMED codes, then
+                        construct a SNOMED2VEC inspired by WORD2VEC to convert the extracted SNOMED codes into vectors which
+                        are then used in conjunction with other relevant information, such as days of stay last time and family history
+                        to predict DRG. 
+                    </ul>   
+                </p>
+            </div>
+
+            <div class="experienceDiv">
+                <h2 class="experienceName">Software Developer Intern @ PLATiFi, Bangalore</h2>
+                <!-- <a class="experienceDate">May 2021 - July 2021</a> -->
+                <p> 
+                    <ul>
+                        Made a contribution by creating a Job Portal for the organization. Candidates can apply for vacant job positions
+                        using the portal.
+                    </ul>
+                    <ul>
+                        MERN Stack was used to develop this platform.
+                    </ul>
+                </p> 
+            </p>
+                </p>
+            </div>
         </div>
 
         <div class="projectSec">
             <h1 class="projectHead"> PROJECTS </h1>
+
             <div class="projectDiv">
                 <div class="projectContent projectContentLeft">
-                    <h2 class="projectName">Dexterous Hand Manipulation</h2>
+                    <h2 class="projectName">Mobile Edge Computing using UAVs— Reinforcement Learning</h2>
+                    <p>Working alongside Professor Paresh Saxena and a Ph.D. scholar Nida Fatima on this 6G research-focused
+                        initiative. The objective is to optimize UE (User Equipment) scheduling for UAV-based computing provision (Unmanned
+                        Aerial Vehicles). Used algorithms are DDPG, SAC, and A3C
+                    </p>
+                    <a href="https://github.com/Siddhesh-Shukla/UAV-assisted-MEC"><button class="btn"><span>Source Code</span></button></a>
+                </div>
+            </div>
+
+            <div class="projectDiv">
+                <div class="projectContent projectContentRight">
+                    <h2 class="projectName">Expense Tracker— App Development</h2>
+                    <p>
+                        It is a financial tracking application that enables users to maintain a centralized record of their finances,
+                        including information about what they owe to others and what others owe them. It functions as a One-Stop Application for monitoring all of your lending and borrowing data.
+                        Tech Stack : JAVA, XML, Firebase
+                    </p>
+                    <a href="https://github.com/vinithkatariya/xpensetrackr/tree/master"><button class="btn"><span>Source Code</span></button></a>
+                </div>
+            </div>
+
+
+            <div class="projectDiv">
+                <div class="projectContent projectContentLeft">
+                    <h2 class="projectName">Dexterous Hand Manipulation— Reinforcement Learning</h2>
                     <p>Reinforcement learning algorithm of Proximal Policy Optimization (PPO) to learn dexterous in-hand manipulation policies. 
                         Performed the training in MuJuCo-Py(simulated environment) from Open-AI gym.
                     </p>
                     <a href="https://github.com/Siddhesh-Shukla/Dextreous-Hand-Manipulation"><button class="btn"><span>Source Code</span></button></a>
                 </div>
-                <div class="projectCard">
-                    <img src="./projectImgs/dextrousHand.png" alt="" class="project-img">
-                    <!-- <div class="portfolio-img-desc">
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>			 -->
-                </div>
             </div>
             <div class="projectDiv">
-                <div class="projectCard">
-                    <img src="./projectImgs/fakenewsdetection.jpg" alt="" class="project-img">
-                    <!-- <div class="portfolio-img-desc">
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>			 -->
-                </div>
                 <div class="projectContent projectContentRight">
-                    <h2 class="projectName">Automated Fake News Detection</h2>
+                    <h2 class="projectName">Automated Fake News Detection— Natural Language Processing</h2>
                     <p>
                         Automated the task of detecting fake news in social media using existing Natural Language Processing techniques. Used Siamese Neural Network containing BERT as base model.
                     </p>
@@ -92,22 +111,10 @@
                     </p>
                     <a href="https://github.com/Siddhesh-Shukla/InformationRetrieval"><button class="btn"><span>Source Code</span></button></a>
                 </div>
-                <div class="projectCard">
-                    <img src="./projectImgs/ir.jpg" alt="" class="project-img">
-                    <!-- <div class="portfolio-img-desc">
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>			 -->
-                </div>
             </div>
             <div class="projectDiv">
-                <div class="projectCard">
-                    <img src="./projectImgs/dbms.png" alt="" class="project-img">
-                    <!-- <div class="portfolio-img-desc">
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>			 -->
-                </div>
                 <div class="projectContent projectContentRight">
-                    <h2 class="projectName">Hotel Management System</h2>
+                    <h2 class="projectName">Hotel Management System— Web Development</h2>
                     <p>
                         A Web Application which helps in making online reservations for hotels and manages all hotel related Activities. <br><br>
                         Tech Stack - Django, PostgreSQL Database, Bootstrap, HTML, CSS
@@ -117,18 +124,12 @@
             </div>
             <div class="projectDiv">
                 <div class="projectContent projectContentLeft">
-                    <h2 class="projectName">Inventory TrackR App</h2>
+                    <h2 class="projectName">Inventory TrackR— App Development</h2>
                     <p>
                         TrackR is a consumer android app project aimed towards tracking and maintaining inventory for business as well as households.
                         Built using Java along with Firebase Auth and Firebase Firestore for backend & XML for frontend.
                     </p>
                     <a href="https://github.com/Siddhesh-Shukla/TrackR"><button class="btn"><span>Source Code</span></button></a>
-                </div>
-                <div class="projectCard">
-                    <img src="./projectImgs/trackr.png" alt="" class="project-img">
-                    <!-- <div class="portfolio-img-desc">
-                        <p>Screenshots</p>
-                    </div>			 -->
                 </div>
             </div>
         </div>
@@ -148,5 +149,3 @@
 
     </body>
 </html>
-
-
