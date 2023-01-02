@@ -4,109 +4,18 @@ body {
     margin: 0;
 }
 
-/* Typing Demo Start */
-
-h1 .type{
-    font-size: 2.5rem;
-    overflow: hidden;
-    white-space: nowrap; 
-    width: 0;
-    animation: 
-        typing 0.8s steps(6, end) forwards;
-}
-
-h1 .type2{
-    font-size: 2.5rem; 
-    overflow: hidden;
-    white-space: nowrap; 
-    width: 0;
-    animation: 
-        typing 1.5s steps(27, end) forwards;
-    animation-delay: 1s;
-}
-
-h1 .type3{
-    font-size: 2.5rem; 
-    overflow: hidden;
-    white-space: nowrap; 
-    width: 0;
-    animation: 
-        typing 2.5s steps(43, end) forwards;
-    animation-delay: 2.7s;
-}
-
-h1 .type4{
-    font-size: 2.5rem; 
-    overflow: hidden;
-    white-space: nowrap; 
-    width: 0;
-    animation: 
-        typing 2.5s steps(42, end) forwards;
-    animation-delay: 5.4s;
-}
-
-h1 .type5{
-    font-size: 2.5rem; 
-    overflow: hidden;
-    white-space: nowrap; 
-    width: 0;
-    animation: 
-        typing 0.1s steps(10, end) forwards;
-    animation-delay: 7.9s;
-}
-
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-
-.c1, .c2, .c3, .c4, .c5{
-    max-width: 100%;
-    font-family: monospace;
-    color: rgb(255, 162, 0);
-    display: inline-block;
-}
-
-/* decrease font size for mobile */
-@media only screen and (max-width: 600px) {
-    .c1, .c2, .c3, .c4, .c5{
-        font-size: 0.8em;
-    }
-}
-
-.typingDemo {
-    width: 100%;
-}
-
-/* Typing Demo End */
-
-.intro {
-    height: min(20vw, 300px);
-    padding: min(5vw, 75px);
-    background-image: url("./topBackground.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.name {
-    color: whitesmoke;
-    font-size: 3rem;
-    font-family: 'Lato', serif;
-    text-shadow: #26292d 10px 10px 10px;
-}
-
-.info {
-    color: whitesmoke;
-    font-size: 2.5rem;
-    font-family: 'Lato', serif;
-    text-shadow: #26292d 0px 0px 10px;
-}
-
 .aboutMeDiv {
+    background-color: #26292d;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2em 10em;
+    padding: 1em 10em;
+    padding-top: 1.5em;
+    color: #fff;
+}
+
+.aboutMeContent > h1 {
+    color: #2effd2;
 }
 
 .aboutMe > div > h1 {
@@ -130,77 +39,99 @@ h1 .type5{
     width: 180px;
 }
 
-/* Skill Start */
+/* Experience Start */
 
-.skillDiv {
+.experienceSec {
     background: #222;
     color: #fff;
-    padding: 2em 8em;
-    margin-top: 1em;
-    margin-bottom: 1em;
     font-family: 'Lato', serif;
 }
 
-.skillHead {
+.experienceHead {
+    color: #2effd2;
     font-size: 2.5rem;
+    padding-top: 1em;
+    padding-left: 4em;
+    margin: 0;
 }
 
-.skillType {
-    margin-top: 2.5rem;
-    margin-bottom: 0.5rem;
-    font-size: 1.7rem;
+.experienceDiv {
+    padding: 0.5em 10em;
+    color: #fff;
+    /* width: 3000px; */
+    font-size: 1.2rem;
     font-family: 'Lato', serif;
 }
 
-.skillImg {
-    height: 60px;
-    margin: 5px 10px;
-    border: #a2a2a2 solid 1.5px;
-    border-radius: 7px;
+.experienceName {
+    font-size: 1.5rem;
+    font-family: 'Lato', serif;
 }
 
-/* Skill End */
+.experienceDate {
+    color: rgb(240, 240, 240);
+    font-size: 1.2rem;
+    font-family: 'Lato', serif;
+    font-weight: 300;
+    margin: 0;
+    padding-left: 3em;
+}
+
+/* Experience End */
 
 /* Project Start */
 
 .projectSec {
-    padding: 2em 4em ;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    background-color: #26292d;
+    /* padding: 2em 8em ; */
+    /* margin-top: 1em; */
+    /* margin-bottom: 1em; */
     font-family: 'Lato', serif;
+    padding-bottom: 1.5em;
 }
 
 .projectHead {
+    padding-top: 1em;
+    padding-left: 4em;
+    color: #2effd2;
     font-size: 2.5rem;
-    padding-left: 4.5rem;
+    margin: 0;
 }
 
 .projectDiv {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2em 6em;
+    padding: 0 6em;
+    margin-left: 3em;
+    margin-right: 3em;
 }
 
 .projectContent {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: #eee;
     width: 3000px;
     font-size: 1.2rem;
     font-family: 'Lato', serif;
 }
 
 .projectContentLeft {
-    border-left: #26292d 2px solid;
-    padding-left: 1em;
+    border-left: rgb(149, 149, 149) 1px solid;
+    border-bottom: rgb(149, 149, 149) 1px solid;
+    padding-left: 2em;
     padding-right: 2em;
 }
 
 .projectContentRight {
-    border-right: #26292d 2px solid;
-    padding-right: 1em;
+    border-right: rgb(149, 149, 149) 1px solid;
+    border-bottom: rgb(149, 149, 149) 1px solid;
+    padding-right: 2em;
     padding-left: 2em;
 }
 
 .projectName {
+    color: #fff;
     font-size: 1.5rem;
     font-family: 'Lato', serif;
 }
@@ -236,6 +167,7 @@ h1 .type5{
 
 button {
     margin: 20px;
+    margin-top: 0;
 }
 
 /*Blue Button Start*/
@@ -243,21 +175,21 @@ button {
 .btn {
     width: 130px;
     height: 40px;
-    color: #fff;
+    color: #2effd2;;
     border-radius: 5px;
     padding: 0;
     font-family: 'Lato', serif;
     font-size: 1.15rem;
     font-weight: 500;
-    background: rgb(0,172,238); 
-    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    background: #26292d; 
+    /* background: linear-gradient(0deg, #2effd2 0%, #21ff94 100%); */
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-    7px 7px 20px 0px rgba(0,0,0,.1),
-    4px 4px 5px 0px rgba(0,0,0,.1);
+    /* box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), */
+    /* 7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1); */
     outline: none;
     line-height: 42px;
     border: none;
@@ -275,7 +207,7 @@ button {
     content: "";
     right: 0;
     top: 0;
-    background: rgba(2,126,251,1);
+    background: #2effd2;
     transition: all 0.3s ease;
 }
 .btn:before {
@@ -288,6 +220,7 @@ button {
 }
 .btn:hover{
     background: transparent;
+    border: none;
     box-shadow: none;
 }
 .btn:hover:before {
@@ -297,7 +230,7 @@ button {
     width: 100%;
 }
 .btn span:hover{
-    color: rgba(2,126,251,1);
+    color: #2effd2;
 }
 .btn span:before,
 .btn span:after {
@@ -305,7 +238,7 @@ button {
     content: "";
     left: 0;
     bottom: 0;
-    background: rgba(2,126,251,1);
+    background: #2effd2;
     transition: all 0.3s ease;
 }
 .btn span:before {
@@ -327,7 +260,7 @@ button {
 /* Footer Start */
   
 footer {
-    padding: 2em;
+    padding: 1em;
     text-align: center;
     font-size: 0.85rem;
     color: #fff;
@@ -335,19 +268,20 @@ footer {
 }
 
 .footerHeading {
-    font-size: 2.5rem;
+    margin: 0;
+    font-size: 2rem;
     font-family: 'Lato', serif;
 }
 
 .footerPara {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: 'Lato', serif;
 }
 
 .footerSvgs {
     margin-left: 1rem;
     border-radius: 180px;
-    width: 70px;
+    width: 50px;
 }
 
 /* Footer End */
