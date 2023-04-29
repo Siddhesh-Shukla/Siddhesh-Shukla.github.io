@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio : Siddhesh Shukla</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile_pic.jpeg" alt="Siddhesh Shukla" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Siddhesh Shukla">Siddhesh Shukla</h1>
+
+          <p class="title">CSE Undergrad at BITS Pilani</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:siddheshshukla161@gmail.com" class="contact-link">siddheshshukla161@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Hyderabad, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a passionate computer science student who has experience with diverse range of tools, technologies, and programming languages.
+            I have a passion for machine learning  and its practical applications in real-life scenarios along with full-stack web development.
+          </p>
+          <p>
+            I am always looking to learn and expand my knowledge in the field and am excited to see where my career takes me and the impact I can make in the industry. 
+          </p>
+        </section>
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">BITS Pilani</h4>
+
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                B.E. CSE
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DAV Ispat Public School</h4>
+
+              <span>2010 — 2018</span>
+
+              <p class="timeline-text">
+                12th - 92.8%
+              </p>
+              <p class="timeline-text">
+                10th - 10 CGPA
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Here Technologies, Mumbai— Software Developer Intern</h4>
+
+              <span>Jan, 2023 — Present</span>
+
+              <p class="timeline-text">
+                As a member of the International Source Seeding Team within the Unimap product pipeline, my responsibilities involve developing new adapters and modifying existing adapters to meet the specific needs of clients such as Volkswagen and BMW.
+              </p>
+              <p class="timeline-text">
+                Tech Stack - JAVA, Scala, Maven, Spark, IntelliJ
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Primera Medical Technologies, Hyderabad— Data Science Intern</h4>
+
+              <span>Jan, 2022 — May, 2022</span>
+
+              <p class="timeline-text">
+                Involved in creating a NLP model to process the written clinical notes and patient’s history to make an early prediction of Diagnostic Related Groups (DRGs) and estimate the hospital cost.
+              </p>
+              <p class="timeline-text">
+                Libraries Used - Pytorch, Scikit, Pandas, Numpy, Sklearn, NLTK
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PLATiFi, Bangalore— Software Developer Internr</h4>
+
+              <span>May, 2021 — July, 2021</span>
+
+              <p class="timeline-text">
+                Contributed by creating a job portal where candidates can apply for vacant job positions.
+              </p>
+              <p class="timeline-text">
+                TechStack - MERN Stack, Figma, Vscode
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!--
+          - projects
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Projects</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Expense Tracker— App Development</h4>
+
+                <p class="service-item-text">
+                  Financial tracking application that enables users to maintain a centralized record of their finances, including all of their lending and borrowing data.
+                </p>
+                <p class="service-item-text">
+                  Tech Stack - Android Studio, JAVA, XML, Firebase
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile Edge Computing using UAVs— Reinforcement Learning</h4>
+
+                <p class="service-item-text">
+                  Contributed to a research project centered around 6G technology, with the aim of optimizing User Equipment (UE) scheduling for computing services provided by Unmanned Aerial Vehicles (UAVs).  
+                </p>
+                <p class="service-item-text">
+                  Algorithms used are DDPG, SAC, and A3C.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Dextrous Hand Manipulation— Reinforcement Learning, Deep Learning</h4>
+
+                <p class="service-item-text">
+                  Implemented a Deep Reinforcement Learning model to train a robotic hand to complete the designated task.
+                  Employed the Proximal Policy Approximation (PPO) on-policy reinforcement learning algorithm to train the robotic hand in the MujoCo Environment.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Automated Fake News Detection— Natural Language Processing</h4>
+
+                <p class="service-item-text">
+                  Used NLP techniques to analyze reports written by journalists to identify fake news among them. The filtered data was then deployed into a web interface using Django.
+                  Used a Siamese Neural Network containing BERT as the base model.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Hotel Management System— Web Development</h4>
+
+                <p class="service-item-text">
+                  Web App that facilitates the management of hotel operations by staff and allows customers to reserve accommodations.
+                </p>
+                <p class="service-item-text">
+                  Tech Stack : Django, PostgreSQL, HTML, CSS
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
